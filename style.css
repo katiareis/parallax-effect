@@ -1,0 +1,54 @@
+/* Reset All */
+
+* {
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+
+/* Sections Style */
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-family: Roboto, monospace, sans-serif;
+  width: 100%;
+  height: 100vh;
+}
+
+h2 {
+  font-size: min(3.75rem, 3.75vw); /* 60px divided per 16px = 3.75rem */
+  background-color: #eee;
+  padding: 8px 24px;
+  border-radius: 16px;
+}
+
+section:nth-child(1) {
+  background-image: url(/img/bg-4.jpg);
+  background-attachment: fixed; /* Set the background to fixed to have a simple parallax effect */
+  background-size: cover;
+}
+
+section:nth-child(2) {
+  background-color: midnightblue;
+}
+
+section:nth-child(3) {
+  height: 600px;
+  background-image: url(/img/bg-3.jpg);
+  background-attachment: fixed; /* Set the background to fixed to have a simple parallax effect */
+  background-size: cover;
+}
+
+section:nth-child(4) {
+  background-color: olivedrab;
+}
+
+section:nth-child(5) {
+  height: 400px;
+  background-image: url(/img/bg-1.jpg);
+  background-attachment: fixed; /* Set the background to fixed to have a simple parallax effect */
+  background-size: cover;
+}
